@@ -1,0 +1,98 @@
+@media screen and (min-width: 768px) {
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+.logo-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.website-logo {
+  height: 40px;
+}
+
+.mobile-logout {
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-logout {
+    display: none;
+  }
+}
+
+.list-item-container-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color: #e6f6ff;
+  padding: 20px;
+}
+
+.mobile-options {
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item-container-mobile {
+    display: none;
+  }
+  .mobile-options {
+    display: none;
+  }
+}
+
+.list-item-container-desktop {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  font-size: 15px;
+  color: #64748b;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.logout-btn {
+  height: 25px;
+  width: 60px;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .list-item-container-desktop {
+    display: none;
+  }
+  .item {
+    display: none;
+  }
+  .logout-btn {
+    display: none;
+  }
+}

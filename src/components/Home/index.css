@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10%;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .description-container {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 400px;
+    padding: 0px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #1e293b;
+}
+
+.clothes-mobile-image {
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .clothes-mobile-image {
+    display: none;
+  }
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: 400;
+}
+
+.shop-now-btn {
+  height: 40px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+.clothes-desktop-image {
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .clothes-desktop-image {
+    display: none;
+  }
+}
